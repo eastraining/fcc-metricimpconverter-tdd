@@ -35,7 +35,6 @@ module.exports = function (app) {
       returnNum: returnNum,
       returnUnit: returnUnit,
       string: convertHandler.getString(initNum, initUnit, returnNum, returnUnit)
-    })
-  })
-
+    });
+  });
 };
